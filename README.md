@@ -3,4 +3,4 @@
 
 Visualização em mapa
 
-<img src="image.png">
+<img src="image.PNG">
