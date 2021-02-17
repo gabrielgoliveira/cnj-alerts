@@ -1,0 +1,81 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Gabriel\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\CodeBlocks\MinGW\bin;C:\Users\Gabriel\AppData\Local\Programs\Python\Python39\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Gabriel\AppData\Local\Microsoft\WindowsApps;;C:\Users\Gabriel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Gabriel\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.19.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\Gabriel\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:136216:13)
+      at Interface.emit (events.js:314:20)
+      at Interface._ttyWrite (readline.js:868:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:314:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1137:36)
+      at ReadStream.emit (events.js:314:20)
+      at addChunk (_stream_readable.js:298:12)
+
+npm manifest: 
+  {
+    "name": "cnj-view",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^4.2.4",
+      "@testing-library/react": "^9.5.0",
+      "@testing-library/user-event": "^7.2.1",
+      "@types/jest": "^24.9.1",
+      "@types/node": "^12.12.68",
+      "@types/react": "^16.9.52",
+      "@types/react-dom": "^16.9.8",
+      "leaflet": "^1.7.1",
+      "react": "^16.14.0",
+      "react-dom": "^16.14.0",
+      "react-leaflet": "^2.7.0",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "3.4.3",
+      "typescript": "^3.7.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@types/react-leaflet": "^2.5.2",
+      "@types/react-router-dom": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
