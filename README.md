@@ -3,4 +3,4 @@
 
 Visualização em mapa
 
-![](image.png)
+<img src="image.png">
